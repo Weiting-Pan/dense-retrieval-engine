@@ -1,0 +1,44 @@
+{
+    "dataset": "SciFact",
+    "num_documents": 5183,
+    "num_queries": 300,
+    "embedding_dimension": 384,
+    "index_type": "IndexHNSWFlat",
+    "M": 16,
+    "efConstruction": 100,
+    "flat_index_size_mib": 7.592328071594238,
+    "hnsw_index_size_mib": 8.303754806518555,
+    "index_size_ratio": 1.0937033711156439,
+    "benchmark_results": [
+        {
+            "efSearch": 10,
+            "Recall@10": 0.8776666666666667,
+            "Latency (ms/query)": 0.20157473324798048
+        },
+        {
+            "efSearch": 16,
+            "Recall@10": 0.9303333333333335,
+            "Latency (ms/query)": 0.25211866665631527
+        },
+        {
+            "efSearch": 32,
+            "Recall@10": 0.9730000000000001,
+            "Latency (ms/query)": 0.4001565333455801
+        },
+        {
+            "efSearch": 64,
+            "Recall@10": 0.9916666666666667,
+            "Latency (ms/query)": 0.6347462001722305
+        },
+        {
+            "efSearch": 128,
+            "Recall@10": 0.9983333333333333,
+            "Latency (ms/query)": 1.07959679987592
+        },
+        {
+            "efSearch": 256,
+            "Recall@10": 1.0,
+            "Latency (ms/query)": 2.068075400001059
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "dataset": "SciFact",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "num_documents": 5183,
+    "num_queries": 300,
+    "recall@10": 0.7833333333333333,
+    "ndcg@10": 0.6450816521455776
+}
