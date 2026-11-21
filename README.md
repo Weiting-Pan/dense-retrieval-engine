@@ -1,6 +1,6 @@
 
 
-\# Dense Retrieval Engine: Exact Search and HNSW Benchmark
+# Dense Retrieval Engine: Exact Search and HNSW Benchmark
 
 
 
@@ -12,7 +12,7 @@ The project implements a dense retrieval pipeline from scratch, evaluates retrie
 
 
 
-\## 1. Project Overview
+## 1. Project Overview
 
 
 
